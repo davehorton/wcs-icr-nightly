@@ -1,0 +1,30 @@
+{
+  "name": "wcs-icr-nightly",
+  "version": "1.0.0",
+  "description": "Nightly batch job",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^0.9.0",
+    "debug": "*",
+    "lodash": "~2.4.1",
+    "minimist": "^1.2.0",
+    "mongoose": "~4.0.6",
+    "redis": "^0.12.1",
+    "rsvp": "^3.1.0",
+    "wcs-icr-models": "davehorton/wcs-icr-models.git#3.1.5",
+    "winston": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davehorton/wcs-icr-nightly.git"
+  },
+  "author": "Dave Horton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davehorton/wcs-icr-nightly/issues"
+  },
+  "homepage": "https://github.com/davehorton/wcs-icr-nightly#readme"
+}
