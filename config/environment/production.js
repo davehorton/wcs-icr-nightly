@@ -7,7 +7,7 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://wcs-icr-db-001,wcs-icr-db-002,wcs-icr-db-003/wcsroutes?replicaSet=wcs-rs0'
+    uri: 'mongodb://wcs-icr-db-001,wcs-icr-db-002,wcs-icr-db-nyc1-001,wcs-icr-db-tor-001,wcs-icr-db-tor-002/wcsroutes?replicaSet=wcs-rs0'
   },
 
   redis: {
